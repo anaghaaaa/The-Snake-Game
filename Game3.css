@@ -1,0 +1,49 @@
+body {
+  height: 3000px;
+  background: linear-gradient(
+    141deg,
+    #bfb5c6 0%,
+    #c9c0ce 21%,
+    #a394ac 41%,
+    #72617d 61%,
+    #9989a3 75%
+  );
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #907e9b;
+  color: rgba(194, 156, 184, 0.911);
+}
+.grid {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+  /*border:1px black solid;
+box-sizing:border-box*/
+}
+.snake {
+  background: rgb(0, 128, 38);
+}
+.apple {
+  background: rgba(255, 0, 212, 0.438);
+  border-radius: 20px;
+}
+.popup {
+  background: rgba(0, 6, 7, 0);
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
