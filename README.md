@@ -1,2 +1,2 @@
 # The-Snake-Game
-A game built using JavaScript 
+A game built using HTML,CSS and JavaScript 
